@@ -1,2 +1,5 @@
+import ..code.code
+
+
 def test_one():
-    assert 1 + 1 == 2
+    assert my_func() == 10
