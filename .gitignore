@@ -1,0 +1,42 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# python
+.py[c]
+.sw[a-z]
+__pycache__/
+htmlcov/
+.coverage
+.eggs/
+*.egg-info/
+venv/
+.tox/
+
+# keys
+ansible/keys/*
+
+#VisualCode
+.vscode/
