@@ -8,4 +8,4 @@ before_script:
 # command to run tests
 script:
   - pytest
-after_success: coveralls
+after_success: COVERALLS_REPO_TOKEN=TLVUBi6sSNAi4LJ8fXiJIlUXcozLOOJA6 coveralls
