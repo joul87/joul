@@ -1,4 +1,4 @@
-import ..code.code
+from ..code.code import my_func
 
 
 def test_one():
