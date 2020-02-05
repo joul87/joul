@@ -7,5 +7,5 @@ before_script:
   - pip install coveralls
 # command to run tests
 script:
-  - pytest
-after_success: COVERALLS_REPO_TOKEN=TLVUBi6sSNAi4LJ8fXiJIlUXcozLOOJA6 coveralls
+  - coverage run --source=program_dir/ program_dir/test_1.py
+after_success: coveralls
